@@ -18,7 +18,7 @@ driver.get('http://stuff-dharrya.rhcloud.com/get_js_error')
 print(driver.execute_script('return window.JSErrorCollector_errors ? window.JSErrorCollector_errors.pump() : []')) 
 driver.quit()
 ```
-Will output:
+recommended output:
 
 ```
 [{
